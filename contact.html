@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Company Name] - Contact</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">[Company Name]</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Intro Section -->
+  <section class="intro">
+    <h1>Start Your Project Today</h1>
+    <p>Tell us what you need—we’ll make it happen.</p>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="contact-form">
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="project-type">Project Type</label>
+      <select id="project-type" name="project-type">
+        <option value="app">App Development</option>
+        <option value="web">Website Development</option>
+        <option value="data">Data Science</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </section>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h3>Why Us?</h3>
+    <ul>
+      <li>Affordable rates</li>
+      <li>Skilled team</li>
+      <li>Quick response</li>
+    </ul>
+    <img src="assets/map.jpg" alt="Map" class="map">
+  </aside>
+
+  <!-- Footer -->
+  <footer>
+    <p>© [Company Name] 2025</p>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="social">
+      <a href="#"><img src="assets/linkedin-icon.png" alt="LinkedIn"></a>
+      <a href="#"><img src="assets/github-icon.png" alt="GitHub"></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
